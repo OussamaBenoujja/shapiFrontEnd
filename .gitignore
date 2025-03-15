@@ -1,25 +1,63 @@
-# Ignore all asset files
-/Assets/*
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
 
-# But don't ignore code files
-!/Assets/**/*.cs
-!/Assets/**/*.shader
-!/Assets/**/*.cginc
+# Never ignore Asset meta data
+!/[Aa]ssets/**/*.meta
 
-# Ignore large binary files
+# Visual Studio / MonoDevelop generated
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
 *.unitypackage
-*.asset
-*.meta
+*.app
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Binary asset files to ignore
 *.fbx
+*.tga
+*.png
+*.jpg
+*.jpeg
+*.wav
+*.mp3
+*.mat
+*.unity
+*.prefab
+*.tif
+*.tiff
+*.exr
+*.hdr
+*.shadergraph
+*.asset
 
-# Common Unity directories to ignore
-/Library/
-/Temp/
-/Obj/
-/Build/
-/Builds/
-/Logs/
-/UserSettings/
-
-# Package-related stuff
-/Packages/
+# But don't ignore C# scripts
+!*.cs
+!*.shader
+!*.cginc
