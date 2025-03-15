@@ -1,0 +1,25 @@
+# Ignore all asset files
+/Assets/*
+
+# But don't ignore code files
+!/Assets/**/*.cs
+!/Assets/**/*.shader
+!/Assets/**/*.cginc
+
+# Ignore large binary files
+*.unitypackage
+*.asset
+*.meta
+*.fbx
+
+# Common Unity directories to ignore
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+
+# Package-related stuff
+/Packages/
